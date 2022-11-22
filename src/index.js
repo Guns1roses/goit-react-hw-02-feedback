@@ -1,4 +1,10 @@
-export { default as Statistics } from './components/Statistics/Statistics';
-export { default as FeedbackOptions } from './components/FeedbackOptions/FeedbackOptions';
-export { default as Section } from './components/Section/Section';
-export { default as Notification } from './components/Notification/Notification';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { App } from 'components/App';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
